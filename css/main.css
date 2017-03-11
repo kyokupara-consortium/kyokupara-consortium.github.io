@@ -4,6 +4,9 @@
 #notice1 {
     text-align: center;
 }
-#footer {
-    text-align: center;
+#footerleft {
+    text-align: left;
+}
+#footerright {
+    text-align: right;
 }
