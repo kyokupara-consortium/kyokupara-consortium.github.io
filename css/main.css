@@ -4,9 +4,9 @@
 #notice1 {
     text-align: center;
 }
-#footerleft {
-    text-align: left;
+.footerleft {
+    float: left;
 }
-#footerright {
-    text-align: right;
+.footerright {
+    float: right;
 }
