@@ -1,12 +1,46 @@
+/*AFFECTS ALL*/
 * {
-    font-family: Corbel, 'Yu Gothic', Meiryo, sans-serif
+    font-family: 'Corbel', 'Yu Gothic', Meiryo, sans-serif
 }
-#notice_hero {
+
+/*BODY*/
+body {
+    background-color: midnightblue;
+}
+
+/*HEADER*/
+header {
+    color: white;
+}
+
+/*MAIN*/
+.homenotice_urgent {
     text-align: center;
+    background-color: darkred;
+    color: white;
 }
-.footerleft {
+.about_main1 {
+    background-color: darkcyan;
+    color: white;
+}
+.about_main2 {
+    background-color: darkmagenta;
+    color: white;
+}
+.roadmap_main1 {
+    background-color: indigo;
+    color: white;
+}
+
+/*FOOTER*/
+footer {
+    color: midnightblue;
+    background-color: white;
+    overflow: auto;
+}
+.div_footer_left {
     float: left;
 }
-.footerright {
+.div_footer_right {
     float: right;
 }
