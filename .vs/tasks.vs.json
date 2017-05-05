@@ -5,6 +5,11 @@
       "taskName": "task-notice",
       "appliesTo": "css/notice.css",
       "type": "command"
+    },
+    {
+      "taskName": "task-site",
+      "appliesTo": "site.sitemap",
+      "type": "command"
     }
   ]
 }

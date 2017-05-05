@@ -1,9 +1,7 @@
-/*AFFECTS ALL*/
+/*INTERNAL*/
 * {
     font-family: 'Corbel', 'Yu Gothic', Meiryo, sans-serif
 }
-
-/*BODY*/
 body {
     background-color: midnightblue;
 }
@@ -12,13 +10,28 @@ body {
 header {
     color: white;
 }
+header_left {
+    float: left;
+}
+header_right {
+    float: right;
+}
 
 /*MAIN*/
+/*MAIN > FOR ALL*/
+main a:hover {
+    text-shadow: 0 0 3px white;
+}
+main a:active {
+    color: white;
+}
+/*MAIN > FOR HOME PAGE*/
 .homenotice_urgent {
     text-align: center;
     background-color: darkred;
     color: white;
 }
+/*MAIN > FOR ABOUT PAGE*/
 .about_main1 {
     background-color: darkcyan;
     color: white;
@@ -27,8 +40,13 @@ header {
     background-color: darkmagenta;
     color: white;
 }
+/*MAIN > FOR ROADMAP PAGE*/
 .roadmap_main1 {
     background-color: indigo;
+    color: white;
+}
+.roadmap_main2 {
+    background-color: darkmagenta;
     color: white;
 }
 
@@ -37,6 +55,7 @@ footer {
     color: midnightblue;
     background-color: white;
     overflow: auto;
+    padding: 1%;
 }
 .div_footer_left {
     float: left;
